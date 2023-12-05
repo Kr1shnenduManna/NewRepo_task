@@ -1,0 +1,56 @@
+<!--create a webpage that can show a paragrapg on mahatma gandi, this must be created inside <div> tag then you have to apply complete css box model there you have to apply padding,margin,border,borderstyle to your webpage make shure the border is purple and border style is riche then you have to apply text shadow feature to your webpage, in the same paragraph you will have to apply the block chode along with the cite tag , here you have to add one quotation using quotation tag of mahatma gandhi make shure the test of the blocckquote is brown and can include any quote of mahatma gandhi also insert one image at the the top in this perticular margin that can have also a border.-->
+<!--create a webpage that can create a code on factorial of the number for this you have to use code tag after doing this you have to create one div element where you have to give the defination of html css and java script here you can use defination list tag also you can apply box model technique here you have to apply a anchor tag that can can redirect to the website of geeks for geeks, when you click on click hete it will change the colour into sky blue color and also make sure the border style is solid and you have to use kbd tag in the last line there you have to write "for more details just find some more data on the factorial of the number"-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factorial code</title>
+    <link rel="stylesheet" href="task_lec6.css">
+</head>
+<body>
+    <div class="pycode">
+        <h1>Factorial Calculator</h1>
+        <h2>Calculate the factorial of a number using the <code>for loop</code> in python: </h2>
+        <div class="code">
+            <dl>
+                <dt>Code:</dt>
+                
+                    <pre>
+                        num=int(input("enter a number: "))
+                        fact=1
+                        for i in range (1,num+1):
+                            fact=fact*i
+                        print("The factoraial of {} is".format(num),fact) 
+                    </pre>
+                
+                <dt>Output:</dt>
+                    <code class="output">enter a number: 4</code>
+                    <br>
+                    <code class="output">The factoraial of 4 is 24</code>
+                    
+                
+            
+            </dl>
+        
+        
+        </div>
+    </div>
+    <div class="definition">
+        <dl>
+            <dt><h3>About HTML:</h3></dt>
+            <dd class="one">The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It defines the meaning and structure of web content.</dd>
+
+            <dt><h3>About CSS:</h3></dt>
+            <dd class="one">Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML. CSS is a cornerstone technology of the World Wide Web.</dd>
+            <dt><h3>About Java Script:</h3></dt>
+            <dd class="one">JavaScript, often abbreviated as JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. As of 2023, 98.7% of websites use JavaScript on the client side for webpage behavior, often incorporating third-party libraries.</dd>
+        </dl>
+    </div>
+</body>
+<footer>
+    <div id="link"><a href="https://www.geeksforgeeks.org/calculate-the-factorial-of-a-number-using-loop/?ref=gcse" class="geeks-link" target="_blank">Click Here</a>
+    <div class="text"><kbd>for more details on how to make a factorial calculator.</kbd></div>
+    </div>
+</footer>
+</html>
